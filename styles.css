@@ -1,0 +1,48 @@
+/*your CSS goes here*/
+body{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#wrapper{
+    width: 1000px;
+    padding: 5px;
+}
+/* Menu item */
+#navcontainer{
+    height: 32px;
+    margin: 0;
+    padding: 0;
+}
+#navlist{
+    padding: 2px 50px;
+    font-weight: italic;
+    border-bottom: 1px dotted #FF8C00;
+}
+#navlist li{
+    display: inline;
+    margin: 15px;
+}
+/* Main item */
+#content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ #content div {
+	float: left;
+	padding: 10px;
+	}
+#contentLeft{
+    width: 150px;
+    padding: 5px;
+    border-bottom: 1px dotted #FF8C00;
+}
+#contentCenter {
+    margin-right: 221px;
+    margin-left: 201px;
+	width:700px;
+	}
+#formContainer {
+    background-color: #eadb5a;   
+}
+p.heavy {
+    font-weight: bold;
+}
